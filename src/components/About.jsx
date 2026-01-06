@@ -28,15 +28,15 @@ const About = () => {
               sequence={[
                 "Fullstack Developer",
                 2000,
-                "App Developer",
+                "MERN Stack Developer",
                 2000,
                 "UI/UX Designer",
                 2000,
                 "Coder",
                 2000,
               ]}
-              speed={100} // typing speed (≈ speed={100})
-              deletionSpeed={100} // eraseSpeed
+              speed={50} // typing speed (≈ speed={100})
+              deletionSpeed={50} // eraseSpeed
               delay={500} // typingDelay
               repeat={Infinity}
               cursor={true}
@@ -66,9 +66,9 @@ const About = () => {
           </a>
         </div>
         {/* Right Side */}
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="md:w-[25rem] flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-40 h-40 sm:w-64 sm:h-64 md:w-[25rem] md:h-[25rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
