@@ -24,6 +24,9 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import sensationlogo from './assets/sensation_sofware.png'
 import apptunixlogo from './assets/apptunix_logo.jpeg'
 
+//projectImage
+import jobPortalImage from './assets/ProjectImages/jobPortalImage.png'
+import gadgetShopImage from './assets/ProjectImages/gadgetShopImage.png'
 
 export const SkillsInfo = [
   {
@@ -138,7 +141,7 @@ export const projects = [
     title: "Job Portal (MERN Stack)",
     description:
       "A full-stack MERN job portal application that connects recruiters and job seekers. Features include user authentication, role-based access (Admin & Candidate), job posting and management, job applications tracking, and profile management. Built with secure REST APIs, JWT authentication, Cloudinary file uploads, and a responsive UI for a smooth hiring workflow.",
-    // image: jobPortalLogo,
+    image: jobPortalImage,
     tags: [
       "React",
       "Node.js",
@@ -158,7 +161,7 @@ export const projects = [
     title: "Gadget Shop (MERN Stack)",
     description:
       "A full-stack MERN ecommerce application for buying and selling electronic gadgets. Includes user authentication, product listing and management, cart functionality, order processing, and image uploads. The platform features secure REST APIs, Cloudinary-based image handling, and a responsive UI for an optimized shopping experience.",
-    // image: gadgetShopLogo,
+    image: gadgetShopImage,
     tags: [
       "React",
       "Node.js",
