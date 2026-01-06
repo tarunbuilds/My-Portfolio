@@ -1,32 +1,36 @@
 //tech-logo
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import reduxLogo from "./assets/tech_logo/redux.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import cLogo from "./assets/tech_logo/c.png";
+import cppLogo from "./assets/tech_logo/cpp.png";
+import javaLogo from "./assets/tech_logo/java.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import mcLogo from "./assets/tech_logo/mc.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
 
 //experience-logo
-import sensationlogo from './assets/sensation_sofware.png'
-import apptunixlogo from './assets/apptunix_logo.jpeg'
+import sensationlogo from "./assets/company_logo/sensation_sofware.png";
+import apptunixlogo from "./assets/company_logo/apptunix_logo.jpeg";
 
 //projectImage
-import jobPortalImage from './assets/ProjectImages/jobPortalImage.png'
-import gadgetShopImage from './assets/ProjectImages/gadgetShopImage.png'
+import jobPortalImage from "./assets/ProjectImages/jobPortalImage.png";
+import gadgetShopImage from "./assets/ProjectImages/gadgetShopImage.png";
+
+//education logo
+import jmitLogo from "./assets/education_logo/jmit_logo.png";
+import sgmpLogo from "./assets/education_logo/sgmp_logo.png";
 
 export const SkillsInfo = [
   {
@@ -105,7 +109,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    // img: bsaLogo,
+    img: jmitLogo,
     school:
       "Seth Jai Parkash Mukand Lal Institute of Engineering and Technology,Radaur",
     date: "2022 - 2025",
@@ -115,7 +119,7 @@ export const education = [
   },
   {
     id: 1,
-    // img: vpsLogo,
+    img: sgmpLogo,
     school:
       "Sanjay Gandhi Memorial Senior Secondary Public School, Ladwa - Kurukshetra",
     date: "2021 - 2022",
@@ -125,7 +129,7 @@ export const education = [
   },
   {
     id: 2,
-    // img: vpsLogo,
+    img: sgmpLogo,
     school:
       "Sanjay Gandhi Memorial Senior Secondary Public School, Ladwa - Kurukshetra",
     date: "2019 - 2020",
