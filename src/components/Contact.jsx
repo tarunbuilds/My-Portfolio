@@ -9,7 +9,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(form.current, "test");
     emailjs
       .sendForm(
         "service_29e9ng9", // EmailJS Service ID
@@ -18,7 +18,8 @@ const Contact = () => {
         "bsh-ooaNl9LLpqac7" // EmailJS Public Key
       )
       .then(
-        () => {
+        (result) => {
+          console.log("SUCCESS!", result.status, result.text);
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
           toast.success("Message sent successfully! ✅", {
@@ -77,14 +78,14 @@ const Contact = () => {
         >
           <input
             type="email"
-            name="user_email"
+            name="from_email"
             placeholder="Your Email"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
           <input
             type="text"
-            name="user_name"
+            name="from_name"
             placeholder="Your Name"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
